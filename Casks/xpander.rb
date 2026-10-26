@@ -1,12 +1,12 @@
 cask "xpander" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.0-internal.421"
-  sha256 arm:   "5e2f3464b5d3b5ca53757d984e2ccbd05d54ad20a46be8b9226f2fcafe914ab8",
-         intel: "c7fc172919bb21498c00b66f8c5a1ec037f7f5b57d135983a74250038476fea7"
+  version "0.1.0-internal.459"
+  sha256 arm:   "921d48532cf3e4e930a9f72f766a4d834f56913ec2d79c09b5caf1418094d85c",
+         intel: "88e6ffba1411985e62f111bd82f0f5b9aed016c1052bacfd57d9abe4b253b5ac"
 
   url "https://chat.xpander.ai/desktop/feed/xpander-#{version}-#{arch}.dmg"
-  name "xpander.ai"
+  name "Omni"
   desc "Your xpander agents, working on this computer"
   homepage "https://xpander.ai/"
 

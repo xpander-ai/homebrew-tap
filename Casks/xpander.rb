@@ -1,9 +1,9 @@
 cask "xpander" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.0-internal.465"
-  sha256 arm:   "91bfa37f916b2753debe49e4e79cb2a0ad1fdd33817549c8a0d5936801a9cde1",
-         intel: "250460ff07de13cd5295bbd7027a35851c480c37a1db91167b0a5553beb3add4"
+  version "0.1.0-internal.478"
+  sha256 arm:   "4cb5cb60f3a3484a0a51eb1de204c5021e65a41ca2575d4a0cb1f70aa74226ee",
+         intel: "65520ff9ee8e1ab5d6e3b061dfeec159c9353c4b85b6137b5a3bab4b3fac8267"
 
   url "https://chat.xpander.ai/desktop/feed/xpander-#{version}-#{arch}.dmg"
   name "Omni"
